@@ -1,6 +1,6 @@
 //surfingkeysのキーマップを設定するファイル
 
-api.mapkey('<cm>', 'put title and URL to clipboard', function() {
+api.mapkey('cm', 'put title and URL to clipboard', function() {
     const title = document.title;
     const url = location.href;
     const text = `[${title}](${url})`;
